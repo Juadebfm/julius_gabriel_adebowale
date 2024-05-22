@@ -1,4 +1,5 @@
 export const navItems = [
+  { name: "Top", link: "#hero" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
@@ -13,7 +14,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/fix.png",
     spareImg: "",
   },
   {
@@ -49,9 +50,9 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a platform for the shipping company 'Aaronic'",
+    title: "Currently building a platform for a shipping company 'Aaronic'",
     description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
+    className: "md:col-span-3 md:row-span-2 leading-normal",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
@@ -72,130 +73,124 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "BMT X SCFN (In Progress)",
+    des: "This project was built as a collaborative effort with the Trestlestack Team.",
+    img: "/bmt.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/git.svg"],
+    link: "https://scfn-luth-transplant.sicklecellfoundation.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "My 2023 Portfolio Website",
+    des: "This is my former portfolio website. Solved the problem with efficiency in the current one",
+    img: "/visual.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg", "/git.svg"],
+    link: "https://visual-design-portfolio-website-lonrdq7s2.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Bdfx (In Progress)",
+    des: "This is a FX Exchange, market-data and market news website, a subsidiary of Bussiness Day Nigeria.",
+    img: "/bdfx.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/git.svg"],
+    link: "https://bdfx-b6kl.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "DCOSS Official Website",
+    des: "Landing page for DCOSS Associates LTD.",
+    img: "/dcoss.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg", "/git.svg"],
+    link: "https://dcossassociates.com/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Juadeb Gabriel was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Juadeb Gabriel's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Juadeb Gabriel is the ideal partner.",
+    name: "Daniel Bello",
+    title: "Managing Partner of Dcoss Associates LTD",
+    img: "/dbello.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Julius (Juadeb Gabriel) is a team player and a very effective part of my team. Also a friend and effective mentor",
+    name: "Cyril Okeleke",
+    title: "Lead Software Developer at PluralCode Institute",
+    img: "/cy.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "As soon as you get to work with Julius, you'll understand that his commitment to excellence is a very important part of him that makes team work very fluent.",
+    name: "Martins",
+    title:
+      "Project Manager & Backend Develop at Loyalty Solutions & PluralCode Institute",
+    img: "/martins.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I have done lots of projects with Julius and one of the most outstanding things about him is his attention to details",
+    name: "Yousuf Adebayo",
+    title: "Director of Adebayo Designs",
+    img: "/yousuf.png",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Blazetech",
+    nameImg: "/blt.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "DCOSS",
+    nameImg: "/dcoss2.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "SCFN X BMT",
+    nameImg: "/scfn.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "PluralCode",
+    nameImg: "/logo.png",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Aaronic",
+    nameImg: "/aaronic.png",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity at PluralCode Academy & DCOSS Associates LTD.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "FullStack Developer",
+    desc: "Designed and developed the web application and official website of both companies end-to-end for Aaronic & DCOSS Associates LTD",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Dev Project",
+    desc: "Part of the trestlestack team. Develop the blog, donation and webpage of the Sickle Cell Foundation of Nigeria project",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Frontend Development Mentor",
+    desc: "Facilitate and tutored frontend development at PluralCode's tech academy",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +200,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Juadebfm"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link:"https://x.com/home"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/juadebade/"
   },
 ];
