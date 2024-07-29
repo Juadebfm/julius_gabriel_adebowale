@@ -1,47 +1,58 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "deploy": "vercel --prod"
-  },
-  "dependencies": {
-    "@react-three/drei": "^9.105.4",
-    "@react-three/fiber": "^8.16.2",
-    "@sentry/nextjs": "^7.105.0",
-    "@tabler/icons-react": "^3.1.0",
-    "@types/three": "^0.163.0",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.0",
-    "framer-motion": "^11.0.25",
-    "lucide-react": "^0.365.0",
-    "mini-svg-data-uri": "^1.4.4",
-    "next": "14.1.4",
-    "next-themes": "^0.3.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-icons": "^5.0.1",
-    "react-lottie": "^1.2.4",
-    "tailwind-merge": "^2.2.2",
-    "tailwindcss-animate": "^1.0.7",
-    "three": "^0.163.0",
-    "three-globe": "^2.31.0",
-    "vercel": "^34.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@types/react-lottie": "^1.2.10",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.4",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^5"
-  }
+	"name": "juadebgabriel",
+	"version": "1.1.0",
+	"description": "Personal portfolio template built using Reactjs",
+	"author": {
+		"name": "Juadeb Gabriel Adebowale",
+		"email": "mail@tharindu.dev",
+		"url": "https://juadebgabriel.com"
+	},
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^6.4.0",
+		"@fortawesome/free-brands-svg-icons": "^6.4.0",
+		"@fortawesome/free-regular-svg-icons": "^6.4.0",
+		"@fortawesome/free-solid-svg-icons": "^6.4.0",
+		"@fortawesome/react-fontawesome": "^0.2.0",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-ga4": "^2.1.0",
+		"react-helmet": "^6.1.0",
+		"react-router-dom": "^6.11.1",
+		"react-scripts": "5.0.1",
+		"styled-components": "^5.3.10",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"prettier": {
+		"useTabs": true,
+		"tabWidth": 4
+	}
 }
